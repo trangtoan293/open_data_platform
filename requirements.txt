@@ -1,0 +1,10 @@
+psycopg2
+sqlalchemy
+duckdb
+pandas
+python-dotenv
+faker
+dbt
+dbt-duckdb
+dbt-trino
+dbt-postgres
