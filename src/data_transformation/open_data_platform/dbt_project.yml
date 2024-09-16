@@ -19,4 +19,10 @@ models:
   open_data_platform:
     staging:
       +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    dwh:
+      +schema: dwh
       +materialized: table

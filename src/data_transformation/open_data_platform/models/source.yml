@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: crm
     database: iceberg
-    schema: crm  
+    schema: crm
     tables:
       - name: airbyte_raw_campaign
       - name: airbyte_raw_ticket
