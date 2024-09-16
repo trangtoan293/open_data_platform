@@ -1,0 +1,91 @@
+[0m13:16:33.988854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A3F28520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A699F820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A699F610>]}
+
+
+============================== 13:16:33.994371 | 45c37786-d510-4112-b128-fb66350f0e99 ==============================
+[0m13:16:33.994371 [info ] [MainThread]: Running with dbt=1.8.6
+[0m13:16:33.995374 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Itto\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init open_data_platform', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:16:34.021556 [debug] [MainThread]: Starter project path: D:\01_work\05_product\00_dev\open_data_platform\.venv\lib\site-packages\dbt\include\starter_project
+[0m13:16:34.083684 [info ] [MainThread]: 
+Your new dbt project "open_data_platform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:16:34.086218 [info ] [MainThread]: Setting up your profile.
+[0m13:16:37.321854 [debug] [MainThread]: Command `dbt init` succeeded at 13:16:37.321854 after 3.45 seconds
+[0m13:16:37.321854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A3F28520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A699F5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0A69FE460>]}
+[0m13:16:37.323863 [debug] [MainThread]: Flushing usage events
+[0m13:17:57.718595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DCB37520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DF5AE820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DF5AE610>]}
+
+
+============================== 13:17:57.721629 | 90fd6138-1bb6-4bcf-8903-f0e5e97102dd ==============================
+[0m13:17:57.721629 [info ] [MainThread]: Running with dbt=1.8.6
+[0m13:17:57.723251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Itto\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init open_data_platform', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:17:57.744669 [info ] [MainThread]: A project called open_data_platform already exists here.
+[0m13:17:57.746681 [debug] [MainThread]: Command `dbt init` succeeded at 13:17:57.746681 after 0.11 seconds
+[0m13:17:57.746681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DCB37520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DF5993A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000118DF5E4E80>]}
+[0m13:17:57.747680 [debug] [MainThread]: Flushing usage events
+[0m13:18:13.488322 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D73DD37550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7407AE8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7407AE6A0>]}
+
+
+============================== 13:18:13.493255 | d2627d5b-094e-482b-b1a5-524811181913 ==============================
+[0m13:18:13.493255 [info ] [MainThread]: Running with dbt=1.8.6
+[0m13:18:13.494682 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Itto\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init open_data_platform', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:18:13.525963 [debug] [MainThread]: Starter project path: D:\01_work\05_product\00_dev\open_data_platform\.venv\lib\site-packages\dbt\include\starter_project
+[0m13:18:13.545046 [info ] [MainThread]: 
+Your new dbt project "open_data_platform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:18:13.549046 [info ] [MainThread]: Setting up your profile.
+[0m13:18:18.482073 [debug] [MainThread]: Command `dbt init` succeeded at 13:18:18.482073 after 5.10 seconds
+[0m13:18:18.483639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D73DD37550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7407AE640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D74080E490>]}
+[0m13:18:18.484731 [debug] [MainThread]: Flushing usage events
+[0m20:41:01.935992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAFF9B94F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA8242E820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA8242E610>]}
+
+
+============================== 20:41:01.935992 | 49f79406-5317-4eb9-8345-b3e5af8dc372 ==============================
+[0m20:41:01.935992 [info ] [MainThread]: Running with dbt=1.8.6
+[0m20:41:01.935992 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Itto\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init open_data_platform', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:41:01.998725 [debug] [MainThread]: Starter project path: D:\01_work\05_product\00_dev\open_data_platform\.venv\lib\site-packages\dbt\include\starter_project
+[0m20:41:02.040833 [info ] [MainThread]: 
+Your new dbt project "open_data_platform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:41:02.040833 [info ] [MainThread]: Setting up your profile.
+[0m20:41:05.430821 [debug] [MainThread]: Command `dbt init` succeeded at 20:41:05.430821 after 3.58 seconds
+[0m20:41:05.430821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAFF9B94F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA8242E5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CA8248E430>]}
+[0m20:41:05.430821 [debug] [MainThread]: Flushing usage events

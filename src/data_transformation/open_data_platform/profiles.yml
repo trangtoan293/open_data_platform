@@ -1,0 +1,13 @@
+
+open_data_platform:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      method: none
+      host: 192.168.1.29
+      port: 8081
+      user: admin
+      catalog: iceberg
+      schema: crm
+      threads: 2

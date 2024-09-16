@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: crm
+    database: iceberg
+    schema: crm  
+    tables:
+      - name: airbyte_raw_campaign
+      - name: airbyte_raw_ticket
+      - name: airbyte_raw_cdr
+      - name: airbyte_raw_paired
